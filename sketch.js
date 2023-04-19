@@ -5,7 +5,7 @@ var shipMoving;
 function preload(){   
   sea = loadImage("sea.png"); 
   //Agregar la animación de la siguiente manera 
-  shipMoving = loadAnimation("./ship-1.png", "./ship-2.png", "/ship-3.png", "/ship-4.png"); 
+  shipMoving = loadAnimation("ship-1.png", "ship-2.png", "ship-3.png", "ship-4.png"); 
 } 
 
 function setup(){ 
